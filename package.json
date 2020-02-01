@@ -1,0 +1,32 @@
+{
+  "name": "ggj2020",
+  "version": "1.0.0",
+  "description": "Game for Global Game Jam 2020",
+  "main": "src/game.ts",
+  "scripts": {
+    "dev": "rollup --config rollup.config.dev.js",
+    "build": "rollup --config rollup.config.dist.js",
+    "watch": "rollup --watch --config rollup.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galia-A/ggj2020.git"
+  },
+  "author": "Galia Appel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galia-A/ggj2020/issues"
+  },
+  "homepage": "https://github.com/Galia-A/ggj2020#readme",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^2.3.0",
+    "phaser": "^3.22.0",
+    "rollup": "^1.31.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.7.5"
+  }
+}
