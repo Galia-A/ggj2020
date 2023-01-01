@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Galia-A/ggj2020#readme",
   "devDependencies": {
     "@rollup/plugin-replace": "^2.3.0",
-    "phaser": "^3.22.0",
+    "phaser": "^3.55.2",
     "rollup": "^1.31.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
